@@ -1,0 +1,151 @@
+
+  
+    body{
+        background-image: url('https://images.pexels.com/photos/1250260/pexels-photo-1250260.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+              background-repeat: no-repeat;
+         background-size: cover;
+       background-color:black ;
+             height: 700px;
+             color: aliceblue;
+             font-family: 'Trade Winds';
+       
+     }
+     .navbar{
+     
+         width: 100%;
+              
+     
+         
+         background-color: rgb(11,0.1,0.4);
+         text-align: center;
+         font-family: 'Trade Winds', ;
+         border-color: black;
+       
+     }
+     
+     
+     h1{
+         font-size: 2em;
+         text-decoration: underline;
+         color: beige;
+     }
+     h2{
+          font-size: 1.5em;
+         
+         color: beige;
+     }
+     i.fa-qq{
+         font-size: 1.2em;
+         color: rgb(115,181,26);
+     
+     }
+     i.fa-qq:hover{
+        
+         transform: scale(1.8);
+         
+     }
+     
+     .bg-txt{
+          margin-top: 1%;
+     
+         height:80%;
+         background: rgba(1,1,1,0.6);
+         text-align: center;
+         font-family: 'Trade Winds', ;
+     }
+     button{
+         background-color: rgb(115,181,26);
+         width:50%;
+         border-radius: 10px;
+         height:50px;
+         margin-top: 1.5%;
+         color: black;
+         
+     }
+     button:hover{
+         
+         transform: scale(1.2);
+     }
+     a{
+         font-size: 1.4em
+     }
+     .dropdown-menu{
+            background-color: rgb(115,181,26);
+     
+         
+        
+     }
+     .popup{
+         background: rgba(0,0,0,0.6);
+         width: 100%;
+         height: 100%;
+         position: absolute;
+         top:0;
+         display:none;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+     .popup-content{
+         height: 250px;
+         width: 500px;
+          background-color: rgba(12222,122,22,0.5);
+         padding: 20px;
+         border-radius: 5px;
+         position: relative;
+     }
+     h1#content{
+         padding: 60px;
+         color: black;
+     }
+     a.btn{
+           width:50%;
+           background-color: rgb(0,0,0,0.9);
+        
+         border-radius: 10px;
+         height:50px;
+         margin-top: 1.5%;
+         color: wheat;
+          
+     }
+     a.btn:hover{
+         
+         
+         transform: scale(1.2);
+     }
+     
+     h1#content{
+         padding: 60px;
+         color: black;
+     }
+     li{
+         text-align: left
+     }
+     ol{
+         text-align: center;
+     }
+     
+     .modal{
+         
+         width: 100%;
+         height: 100%;
+         margin-left: 30%;
+         margin-top:15%;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         
+     }
+     .modal_content{
+         height: 350px;
+         width: 500px;
+          background-color: rgba(11,11,11,0.9);
+         padding: 20px;
+         border-radius: 5px;
+         position: relative;
+         
+     }
+     a{
+         color: black;
+         text-decoration: none;
+     }

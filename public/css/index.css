@@ -1,0 +1,38 @@
+h1{
+    margin-top: 15%;
+}
+button{
+    margin-top: 50px;
+    color:black;
+}
+body{
+    background-image: url('https://images.pexels.com/photos/1250260/pexels-photo-1250260.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #11130D;
+    color:aliceblue
+}
+.bg-txt{
+     margin-top: 10%;
+    width:420px;
+    height:500px;
+    background: rgba(1,1,1,0.6);
+    text-align: center;
+}
+button{
+    background-color: rgb(115,181,26);
+    width:40%;
+    border-radius: 10px;
+    height:40px;
+    color:black
+}
+.fa-qq{
+    margin-top: 20%;
+    color: rgb(115,181,26);
+    font-size: 5em;
+    
+}
+a{
+    color: black;
+}

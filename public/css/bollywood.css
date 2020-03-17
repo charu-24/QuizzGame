@@ -1,0 +1,142 @@
+body{
+    background-image: url('https://images.pexels.com/photos/109669/pexels-photo-109669.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 800%;
+     font-family: 'Trade Winds';
+    color: black;
+    background-color: black;
+    
+    
+}
+.container{
+        
+    width:90%;
+    height:260%;
+    background: rgba(1,1,1,0.5);
+    text-align: left;
+    
+    
+}
+.navbar{
+
+    width: 100%;
+    background-color: rgb(11,0.1,0.4);
+    text-align: left;
+    font-family: 'Trade Winds', ;
+    border-color: black;
+   
+}
+i.fa-qq{
+    font-size: 1.2em;
+    color: rgb(115,181,26);
+
+}
+i.fa-qq:hover{
+   
+    transform: scale(1.8);
+    
+}
+
+i.arr{
+    margin-top: 3%;
+    font-size:3em;
+    
+}
+i.arr:hover{
+    transform: scale(1.2)
+}
+@media only screen and (max-width: 400px)
+{
+    div{
+        height: 70%
+    }
+
+}
+.buttons{
+color: black;
+    width: 80px;
+    padding: 0.5%;
+    box-shadow: 100px;
+    margin-left: 1.2%;
+    margin-top: 1%
+}
+.timer{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    margin-left: 75%;
+    border-radius: 2em;
+    
+    background-color:#E2DFB1;
+    position: fixed;
+    
+}
+.choices:hover{
+    transform: scale(1.1);
+    
+}
+.choice-prefix{
+    width: 80px;
+    height: 80px;
+    float: left;
+     background-color:#E2DFB1;
+    padding: 30px;
+    text-align: center;
+}
+.choice-text{
+    color: white;
+    height: 80px;
+    background: rgba(1,1,1,0.8);
+    margin-left: 90px;
+      padding: 30px;
+    
+}
+#question{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.fa-clock-o{
+    float: left;
+    width: 40px
+}
+.popup{
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.popup-content{
+    height: 250px;
+    width: 500px;
+     background-color: #E2DFB1;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+h1#content{
+    font-size: 2em;
+    padding: 60px;
+    color: black;
+}
+button{
+    width:150px;
+    height: 40px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 30px;
+    margin-top: -100px;
+    
+}
+button:hover{
+    
+    transform: scale(1.1);
+    background : rgba(0,0,0,1);
+}
+h2{
+    color: #E2DFB1
+}

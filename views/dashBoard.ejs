@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/dashboard.css">
+	<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/dashboard.css">
+	
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+	
+         <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="#"><i class="fa fa-qq" aria-hidden="true"></i> <span class="sr-only">(current)</span></a></li>
+        <li><a href="#"></a></li>
+       
+      </ul>
+      <form class="navbar-form navbar-left">
+      
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">News Feed</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i>  <%= name %> <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button style="width: 200px;><i class="fa fa-cog" aria-hidden="true"></i>  Setting</button></li>
+            <li>
+              <form action="/logout" method="post">
+                <button style="width: 200px;">
+                <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Sign Out</a>
+              </button>
+              </form>
+            </li>
+            
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<div class="modal fade " id="popup-window">
+	    <div class="modal_content">
+	        <center><h2>Instructions</h2></center>
+           <center>
+            
+              <ol>
+                <li>
+                      There are max 5 questions.
+                                        
+                </li>
+                <li>Each currect answer contain 10 points</li>
+                <li>Each wrong answer contains zero point. </li>
+                <li>No negative marking</li>
+                <li>Beware there is a timer.</li>
+                
+                
+            </ol>
+             
+            <h2>
+              Are u Ready?
+
+            </h2>
+            <button onclick="gotoDash()">Yes</button>
+           </center>
+	       
+	    </div>
+	</div>
+     <script type="text/javascript">
+       const toggleModal = () =>{ document.querySelector(".modal").style.display="flex"};
+       document.querySelector("#agreed").addEventListener("click", toggleModal)
+    </script>
+    <div class="bg-txt container">
+        <center>
+           <h1><b>QUIZZO WORLD</b></h1>
+                <h2><b>Hey <%= name %> let us know the filed u wanna test ur knowledge..</b></h2>
+                <a href="#" data-target="#popup-window" data-toggle="modal" role="button" class="btn btn-success btn-lg">Instructions</a>
+                  <div>
+                    <button onclick="gotoGK()" >GK</button>
+                  </div>
+                  <div>
+                    <button onclick="gotoReasoning()">Reasoning</button> 
+
+                  </div>
+                  <div>
+                    <button onclick="gotoScience()">Science</button> 
+
+                  </div>
+                  <div>
+                    <button onclick="gotoBolly()">Bollywood</button> 
+
+                  </div>
+                  <div>
+                    <button onclick="gotoTechno()">Technology</button> 
+
+                  </div>
+                  
+            
+        </center>
+    </div>
+     
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+<script>
+  function gotoGK() {
+    window.location = "/gk"
+  }
+  function gotoReasoning() {
+    window.location = "/reasoning"}
+  function gotoDash() {
+    window.location = '/dashboard'
+  }
+  function gotoScience() {
+    window.location = "/science"
+  }
+  function gotoBolly() {
+    window.location = "/bollywood"
+  }
+  function gotoTechno() {
+    window.location = "/techno"
+  }
+  
+</script>
+
+</html>

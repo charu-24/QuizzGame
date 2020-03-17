@@ -1,0 +1,60 @@
+body{
+    background-image: url('https://images.pexels.com/photos/1250260/pexels-photo-1250260.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+   
+ 
+     
+     
+     height: 100%;
+ }
+    
+ .login{
+    margin-top: 10%;
+    width:420px;
+    height:450px;
+    background: rgba(1,1,1,0.6);
+    text-align: center;
+
+ }
+ .form-img{
+     background-image: url('http://files.softicons.com/download/social-media-icons/free-social-media-icons-by-aha-soft/png/64x64/User.png')
+     width: 50%;
+     height: 50px
+ }
+ form{
+  margin-top: 20%;  
+     color:white;
+ }
+ input{
+     padding:5px;
+     background-color:black;
+     opacity:0.4;
+     color:white;
+     width:100%;
+ }
+ button{
+     background-color: rgb(115,181,26);
+     width:100%;
+     border-radius: 10px;
+     height:40px
+ }
+ h1{
+     color:  rgb(115,181,26);
+     text-align: left
+ }
+ p{
+     color:aliceblue;
+     text-align: left;
+     margin-top: 2%;
+ }
+ hr{
+     margin-top:0px;
+ }
+ .checky{
+     width:10%;
+     height: 15px;
+     padding: 3px;
+     margin-right: 11%;
+ }
